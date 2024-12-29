@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+            font-size: 40px; /* Increased font size */
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 50px; /* Main heading font size */
+            margin: 0;
+        }
+        h2 {
+            font-size: 44px; /* Subheading font size */
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px;
+        }
+        nav button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav button:hover {
+            background-color: #45a049;
+        }
+        section {
+            padding: 30px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            font-size: 20px;
+        }
+        section h2 {
+            color: #4CAF50;
+        }
+        #familyMemories h2 {
+            color: #FF6347; /* Tomato Red */
+        }
+        #familyPhotos h2 {
+            color: #1E90FF; /* Dodger Blue */
+        }
+        #contactUs h2 {
+            color: #FFD700; /* Gold */
+        }
+        #address h2 {
+            color: #8A2BE2; /* BlueViolet */
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 250px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Family Website</h1>
+        <h2>Our Family Story</h2>
+    </header>
+
+    <nav>
+        <button onclick="document.getElementById('aboutUs').scrollIntoView()">About Us</button>
+        <button onclick="document.getElementById('familyMemories').scrollIntoView()">Family Memories</button>
+        <button onclick="document.getElementById('familyPhotos').scrollIntoView()">Family Photos</button>
+        <button onclick="document.getElementById('contactUs').scrollIntoView()">Contact Us</button>
+        <button onclick="document.getElementById('address').scrollIntoView()">Address</button>
+    </nav>
+
+    <section id="aboutUs">
+        <h2>About Us</h2>
+        <p>Our family has a rich history filled with love, traditions, and unforgettable moments. My family comes from Lamjung, and we are proud of our cultural heritage. One of the traditions we cherish is Dashain. These moments remind us of the values that bring us together, such as love, respect, and support.</p>
+        <p>Over the years, we’ve shared countless memories that have shaped who we are today. It’s these little moments that remind us of the importance of being together as a family.</p>
+    </section>
+
+    <section id="familyMemories">
+        <h2>Family Memories</h2>
+        <p>One of our favorite family memories is our tour to Chitwan, and it all started early in the morning. We left Kathmandu at around 7 o’clock, heading to Chitwan by car. During the journey, we stopped for lunch, and our first destination was Sauraha, Chitwan, known for its beautiful but dangerous road. At one point, we couldn't even see the road due to thick dust and the bumpy, uneven path. Our car slowed down, but we finally reached Sauraha at night and stayed in a jungle resort.</p>
+        <p>The next day, we had breakfast and then visited the Elephant Breeding Center, where we saw over 40 elephants, including some baby elephants. We also had the chance to see tigers in enclosures and rhinos nearby. Afterward, we visited the Wildlife Museum. Later, we visited the beautiful Bishajari Taal, enjoying the peaceful atmosphere.</p>
+        <p>In the evening, we checked into a hotel called the "Triple Elephant" and spent the night there. The next day, we made our way to Lumbini, the birthplace of Lord Buddha, where we spent the day exploring the area. We stayed in the same hotel at night.</p>
+        <p>The following day, we went to Palpa, reaching there in the evening, so we rested for the night. The next day, we visited Rani Mahal, a historical palace surrounded by beautiful nature. We were having so much fun, enjoying the breathtaking views and peaceful environment.</p>
+        <p>Afterward, we headed to Pokhara, where we celebrated the New Year. We stayed awake until 11:59 PM, joining a concert to ring in the new year. We were all so excited and made the most of our time together.</p>
+        <p>Our next big plan is to visit Bundipur, where we look forward to spending time in the Red House, having fun in the park with the family. After that, we returned to Kathmandu, and this unforgettable journey will always be my favorite tour with my family. We had so much fun and created memories that we’ll cherish forever.</p>
+    </section>
+
+    <section id="familyPhotos">
+        <h2>Family Photos</h2>
+        <div class="gallery">
+            <img src="1.jpg" alt="Photo 1">
+            <img src="2.jpg" alt="Photo 2">
+            <img src="3.jpg" alt="Photo 3">
+            <img src="4.jpg" alt="Photo 4">
+            <img src="5.jpg" alt="Photo 5">
+            <img src="6.jpg" alt="Photo 6">
+            <img src="7.jpg" alt="Photo 7">
+            <img src="8.jpg" alt="Photo 8">
+            <img src="9.jpg" alt="Photo 9">
+            <img src="10.jpg" alt="Photo 10">
+        </div>
+    </section>
+
+    <section id="contactUs">
+        <h2>Contact Us</h2>
+        <p>Email: shekharadhikari2011@gmail.com, tirthaadhikari98@gmail.com, laxmiparajuli128@gmail.com</p>
+        <p>Phone: +9779841372539 / +9779841720273</p>
+        <p>Facebook: Shekhar Adhikari / Tirtha Adhikari / Laxmi Parajuli</p>
+    </section>
+
+    <section id="address">
+        <h2>Our Address</h2>
+        <p>Sitapaila, Kathmandu, Nepal, Asia, Earth</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
